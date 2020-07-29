@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.square {
+  height: 100%;
+  width: 100%;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+ul li:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.game, .boards, .create-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
